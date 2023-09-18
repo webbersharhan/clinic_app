@@ -13,5 +13,7 @@ FactoryBot.define do
     end_time do
       start_time + doctor.slot_duration_minutes.minutes
     end
+
+    description { "Consultation" }
   end
 end
